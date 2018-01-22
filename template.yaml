@@ -10,6 +10,7 @@ Resources:
       CodeUri: ./testlambda.zip
       Runtime: python2.7
       Handler: testlambda.Handle
+      MemorySize: 256
       Environment:
         Variables:
           LD_LIBRARY_PATH: "/var/task/lib:/lib64:/usr/lib64:/var/task"
